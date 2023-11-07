@@ -7,3 +7,7 @@ hoy hablaremos de su historia
 Ahora es el nickname de un ser increíble
 
 Es el creador del universo onnymmix
+
+La ventaja de tener Git es esta.
+
+Es increíble, ¿No?
