@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", "sans-serif";
+}
+
+body {
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    display: flex;
+    background-color: rgba(30, 30, 30, .5);
+    height: 40px;
+    padding: 0px 0px 0px 15px;
+    justify-content: space-between;
+}
+
+.home .img {
+    min-height: 85%;
+    cursor: pointer;
+}
+
+.options {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.options .links {
+    width: 80px;
+    font-size: 14px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.links:hover {
+    font-weight: 600;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    display: flex;
+}
+
+.more {
+    width: 45px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more:hover {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    background-color: rgba(30, 30, 80, .7);
+    backdrop-filter: blur(2px);
+    width: 420px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    color: #fff;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 30, 0.3);
+    border: none;
+    outline: none;
+    /* border-radius: 5px; */
+    /* border: 2px solid rgba(30, 30, 30, .2); */
+    font-size: 16px;
+    color: rgb(255, 173, 97);
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-me {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 0 15px;
+}
+
+.remember-me label input{
+    accent-color: rgb(255, 147, 47);
+    margin-right: 3px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(255, 147, 47);
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 10px rgba(207, 104, 7, 1);
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(207, 104, 7, 0.3);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+
+.wrapper .btn:hover {
+    background-color: rgba(207, 104, 7);
+    box-shadow: 0 0 10px rgba(207, 104, 7, 1);
+    font-weight: 600;
+}
+
+.wrapper .register {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px
+}
+
+.wrapper .follow-us {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 5px
+}
+
+.wrapper .external-links {
+    font-size: 25px;
+    text-align: center;
+    color: rgba(207, 104, 7, 0.3)
+}
+
+.wrapper .external-links i:hover{
+    cursor: pointer;
+    color: rgb(207, 104, 7);
+    text-shadow: 0 0 10px rgba(207, 104, 7, 1);
+}
