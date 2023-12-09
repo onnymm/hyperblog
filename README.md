@@ -11,5 +11,6 @@ Un blog de curso de GitHub
 * Trucos muy locos
 * Las personalidades múltiples de Onnymm
 * Creado por el increíble Onnymm
+* Incluye ejemplos en Windows, Linux y Mac
 
 Y como amable recordatorio **Este readme.nd es un chiste**. Diseñado para un ejemplo. No te tomes este archivo en serio.
